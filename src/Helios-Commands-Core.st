@@ -253,24 +253,24 @@ label
 	^ 'Browser'
 ! !
 
-HLOpenCommand subclass: #HLOpenSUnitCommand
+HLOpenCommand subclass: #HLOpenTestRunnerCommand
 	instanceVariableNames: ''
 	package: 'Helios-Commands-Core'!
 
-!HLOpenSUnitCommand methodsFor: 'executing'!
+!HLOpenTestRunnerCommand methodsFor: 'executing'!
 
 execute
-	^ HLSUnit openAsTab
+	^ HLTestRunner openAsTab
 ! !
 
-!HLOpenSUnitCommand class methodsFor: 'accessing'!
+!HLOpenTestRunnerCommand class methodsFor: 'accessing'!
 
 key
-	^ 's'
+	^ 't'
 !
 
 label
-	^ 'SUnit'
+	^ 'Test Runner'
 ! !
 
 HLOpenCommand subclass: #HLOpenWorkspaceCommand

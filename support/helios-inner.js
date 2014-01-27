@@ -18,7 +18,7 @@ define([
 	'amber_core/Helios-Browser',
 	'amber_core/Helios-Workspace',
 	'amber_core/Helios-Transcript',
-	'amber_core/Helios-SUnit',
+	'amber_core/Helios-TestRunner',
 	'amber_core/Helios-Debugger',
 	'amber_core/Helios-Inspector',
 	'amber_core/Helios-References',
